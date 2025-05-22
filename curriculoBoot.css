@@ -35,6 +35,11 @@ th {
     font-weight: bold !important;
     text-align: center !important;
 }
+td {
+    
+    border-bottom:1px solid var(--corRoxa) !important;
+    
+}
 
 p.justificado {
     text-align: justify;
@@ -49,6 +54,8 @@ a.menuThayana {
     border-radius: 0.5em;
     transition: background-color 0.3s, color 0.3s;
     background-color: var(--corBege);
+    margin: 0.5em;
+   
 }
 
 
@@ -69,17 +76,17 @@ button.formulario {
 }
 
 button.formulario:hover {
-    background-color: var(--cor5);
+    background-color: var(--corRoxa);
     color: var(--corBranca);
 }
 
 
 .hrBcg {
-    background-color: var(--cor4);
+    background-color: var(--corCaramelo);
 }
 
 .bordaSubTituloTep {
-    border-left: 3px solid var(--cor4);
+    border-left: 3px solid var(--corCaramelo);
     padding: 10px;
 }
 
@@ -88,31 +95,39 @@ button.formulario:hover {
 }
 
 #menuThayana {
-    background-color: var(--cor3);
+    background-color: var(--corBege);
     padding: 1em;
+    margin: 0;
     text-align: center;
 }
 
 #sobre {
-    scroll-margin-top: 85px;
+    scroll-margin-top: 70px;
 }
 
 #formacao {
-    scroll-margin-top: 85px;
+    scroll-margin-top: 70px;
 }
 
 #experiencia {
-    scroll-margin-top: 85px;
+    scroll-margin-top: 70px;
 }
 
 #habilidades {
-    scroll-margin-top: 85px;
+    scroll-margin-top: 70px;
 }
 
 #contato {
-    scroll-margin-top: 85px;
+    scroll-margin-top: 70px;
 }
 
 #endereco {
-    scroll-margin-top: 85px;
+    scroll-margin-top: 70px;
+}
+.fixed-top {
+    position: sticky;
+    top: 0;
+    
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
 }
