@@ -1,0 +1,118 @@
+:root{
+    --corBege: #DCA06D;
+    --corCaramelo: #A55B4B;
+    --corRoxa: #4F1C51;
+    --corPreta: #222222;
+    --corBranca: #FFFFFF;
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    margin: 5%;
+    color: var(--corRoxa);
+    background-color: var(--corBege);
+    background: #4F1C51;
+    background: #4F1C51;
+background: linear-gradient(0deg, rgba(79, 28, 81, 1) 0%, rgba(165, 91, 75, 0.78) 35%, rgba(220, 160, 109, 1) 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--corRoxa);
+}  
+
+footer {
+    text-align: center;
+    background-color: var(--corBege);
+    color: var(--corRoxa);
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+th {
+    background-color: var(--corRoxa) !important;
+    color: var(--corBege) !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+p.justificado {
+    text-align: justify;
+}
+
+a.menuThayana {
+    color: var(--corRoxa);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: var(--corBege);
+}
+
+
+a.menuThayana:hover {
+    background-color: var(--corCaramelo);
+    color: var(--corBranca);
+}
+
+button.formulario {
+    background-color: var(--corBranca);
+    color: var(--corRoxa);
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button.formulario:hover {
+    background-color: var(--cor5);
+    color: var(--corBranca);
+}
+
+
+.hrBcg {
+    background-color: var(--cor4);
+}
+
+.bordaSubTituloTep {
+    border-left: 3px solid var(--cor4);
+    padding: 10px;
+}
+
+.tab{
+    margin-left: 1em;
+}
+
+#menuThayana {
+    background-color: var(--cor3);
+    padding: 1em;
+    text-align: center;
+}
+
+#sobre {
+    scroll-margin-top: 85px;
+}
+
+#formacao {
+    scroll-margin-top: 85px;
+}
+
+#experiencia {
+    scroll-margin-top: 85px;
+}
+
+#habilidades {
+    scroll-margin-top: 85px;
+}
+
+#contato {
+    scroll-margin-top: 85px;
+}
+
+#endereco {
+    scroll-margin-top: 85px;
+}

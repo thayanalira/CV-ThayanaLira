@@ -1,0 +1,27 @@
+:root{
+    --corBege: #DCA06D;
+    --corCaramelo: #A55B4B;
+    --corRoxa: #4F1C51;
+    --corPreta: #222222;
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    margin: 5%;
+    color: var(--corRoxa);
+    background-color: var(--corBege);
+    background: #4F1C51;
+    background: #4F1C51;
+background: linear-gradient(0deg, rgba(79, 28, 81, 1) 0%, rgba(165, 91, 75, 0.78) 35%, rgba(220, 160, 109, 1) 100%);
+}
+
+table {
+    background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/base-code.png);
+    background-repeat: no-repeat;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+
+}
